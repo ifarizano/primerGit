@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+</head>
+<body>
+    <main>
+        <h1>Mi perfil</h1>
+            <img src="./img/asd.jpeg" alt="Ivo Farizano" height="300px"
+            width="350px">
+        <ul>
+            <li >Nombre: Ivo</li>
+            <li>Apellido: Farizano</li>
+            <li>Edad: 27</li>
+            <li>Mail: ivo.farizano@hotmail.com</li>
+        </ul>
+        <p>
+        Mi nombre es Ivo Farizano. Tengo 27 años y estoy arrancando el curso de front-end en NUCBA. Fanático de River y del basquet. Me encantan los videojuegos y la tecnología.
+        </p>
+    </main>
+        <section>
+            <form>
+                <h3>Contacto</h3>
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Juan Perez">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" min="18" max="100">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="pass">Contraseña:</label>
+                    <input type="password">
+                </div>
+
+                <br>
+
+                <div>
+                    <p>Gusto de helado favorito:</p>
+                    <div>
+                        <input type="radio" id="americana" name="gustos">
+                        <label for="americana">Americana</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="chocolate" name="gustos">
+                        <label for="chocolate">Chocolate</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="vainilla" name="gustos">
+                        <label for="vainilla">Americana</label>
+                    </div>
+                </div>
+
+                <br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+</body>
+</html>
